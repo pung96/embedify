@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    //test
     $.fn.embedify = function(options) {
         var attr = options["attr"] || "href";
         return this.each(function() {
